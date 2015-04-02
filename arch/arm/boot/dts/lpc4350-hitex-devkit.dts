@@ -177,4 +177,11 @@
 		};
 	};
 
+	m0_core@0 {
+		compatible = "nxp,lpc4350-rproc";
+		clocks = <&ccu1 CLK_CPU_M0APP>;
+		resets = <&rgu 56>;
+		interrupts = <50>;
+	};
+
 };
