@@ -64,4 +64,11 @@ config DA8XX_REMOTEPROC
 	  It's safe to say n here if you're not interested in multimedia
 	  offloading.
 
+config LPC4350_REMOTEPROC
+	tristate "LPC4350 remoteproc support"
+	select REMOTEPROC
+	select RPMSG
+	help
+          Help for the remoteproc framework?!?!
+
 endmenu
